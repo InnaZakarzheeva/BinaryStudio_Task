@@ -1,0 +1,87 @@
+.item-wrapper{
+    display: flex;
+    min-width: 270px;
+    width: 30%;
+    margin-top: 10px ;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 2px solid #A9A9A9;
+    border-radius: 5px;
+    margin: 1%;
+    background-color: white;
+}
+.recipe-name{
+    text-align: center;
+    margin: 0;
+    font-size: 20px;
+    border-bottom: 1px solid #A9A9A9;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 10px 0 5px 0;
+    font-weight: 600;
+}
+.recipe-text-block{
+    cursor: pointer;
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.hidden-span{
+    text-align: start;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-family: 'Open Sans', sans-serif;
+}
+.show-span{
+    padding: 10px;
+    text-align: start;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.info-wrapper{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #A9A9A9;
+}
+.time-span{
+    width: 50%;
+    font-size: 14px;
+    font-weight: 700;
+}
+.img-wrapper{
+    display: flex;
+    width: 30%;
+    height: 35px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.image{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 375px ) and (min-width: 320px){
+    .item-wrapper{
+        min-width: 270px!important;
+    }
+}
+@media screen and (max-width: 705px ) and (min-width: 320px){
+    .item-wrapper{
+        min-width: 350px;
+    }
+}
+@media screen and (max-width: 768px ) and (min-width: 705px){
+    .item-wrapper{
+        min-width: 300px;
+    }
+}

@@ -1,0 +1,6 @@
+.App {
+  min-height: 100vh;
+  height: 100%;
+  position: relative;
+  background-image: url('../image/background.jpg');
+}
